@@ -36,6 +36,8 @@ preprocess_params:
 model_params:
   multispeaker: false
 
+  skip_downsamples: False # set to True if you want to skip downsampling to allow for shorter segments
+
   dim_in: 64 
   hidden_dim: 512
   max_conv_dim: 512
